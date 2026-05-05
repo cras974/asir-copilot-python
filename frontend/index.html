@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ASIR Copilot IA para Linux y Docker</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+<main class="container">
+<section class="hero">
+<h1>ASIR Copilot</h1>
+<p>Asistente IA local para Linux, Docker, redes, logs y seguridad básica.</p>
+</section>
+<section class="warning">
+La IA puede equivocarse. Nunca ejecutes comandos peligrosos sin entenderlos.
+</section>
+<section class="card">
+<label for="modo">Modo de asistencia</label>
+<select id="modo">
+<option value="">Cargando modos...</option>
+</select>
+<label for="consulta">Consulta o error</label>
+<textarea
+id="consulta"
+placeholder="Pega aquí un error de Linux, Docker, un log o una duda técnica..."
+></textarea>
+<div class="buttons">
+<button id="btnConsultar">Consultar IA</button>
+<button id="btnLimpiar" class="secondary">Limpiar</button>
+</div>
+</section>
+<section id="estado" class="estado oculto"></section>
+<section class="card">
+<h2>Respuesta de la IA</h2>
+<div id="respuesta" class="respuesta">
+Todavía no hay respuesta.
+</div>
+</section>
+<section class="examples">
+<h2>Ejemplos de consultas</h2>
+<button class="example">
+Mi contenedor Docker no arranca porque el puerto 80 ya está ocupado.
+</button>
+<button class="example">
+Explícame qué hace el comando chmod 755 script.sh.
+</button>
+<button class="example">
+No puedo acceder a una web desde mi servidor. ¿Qué pruebas hago?
+</button>
+<button class="example">
+¿Es seguro usar chmod -R 777 en una carpeta?
+</button>
+</section>
+</main>
+<script src="/static/main.js" type="module"></script>
+</body>
+</html>

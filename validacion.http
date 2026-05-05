@@ -1,0 +1,23 @@
+### Comprobar salud del backend y Ollama
+GET http://localhost:8000/api/health
+
+### Obtener modos disponibles
+GET http://localhost:8000/api/modos
+
+### Preguntar sobre Linux
+POST http://localhost:8000/api/ask
+Content-Type: application/json
+
+{
+    "modo": "linux",
+    "consulta": "Explícame qué hace el comando chmod 755 script.sh"
+}
+
+### Preguntar sobre Docker
+POST http://localhost:8000/api/ask
+Content-Type: application/json
+
+{
+    "modo": "docker",
+    "consulta": "Mi contenedor no arranca porque el puerto 80 está ocupado"
+}
