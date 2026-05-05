@@ -26,25 +26,6 @@ El proyecto destaca por su enfoque **didáctico y seguro**: la IA no solo resuel
 
 ---
 
-🛠️ Estructura del Proyecto
-asir-copilot-python/
-├── backend/
-│   ├── main.py
-│   ├── services.py
-│   ├── schemas.py
-│   ├── prompts.py
-│   ├── .env
-│   └── Dockerfile
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── main.js
-├── docker-compose.yml
-├── .gitignore
-└── validacion.http
-
----
-
 ## ⚙️ Instalación y Configuración
 
 ### Requisitos previos
