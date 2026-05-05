@@ -26,23 +26,22 @@ El proyecto destaca por su enfoque **didáctico y seguro**: la IA no solo resuel
 
 ---
 
-## 🛠️ Estructura del Proyecto
-
+🛠️ Estructura del Proyecto
 asir-copilot-python/
 ├── backend/
-│   ├── main.py            # Servidor FastAPI y rutas de la API
-│   ├── services.py        # Orquestación de llamadas a la IA (Ollama)
-│   ├── schemas.py         # Definición de tipos y validación Pydantic
-│   ├── prompts.py         # Ingeniería de prompts y roles de experto
-│   ├── .env               # Configuración de variables de entorno
-│   └── Dockerfile         # Configuración de la imagen de Docker
+│   ├── main.py
+│   ├── services.py
+│   ├── schemas.py
+│   ├── prompts.py
+│   ├── .env
+│   └── Dockerfile
 ├── frontend/
-│   ├── index.html         # Interfaz visual principal
-│   ├── style.css          # Hoja de estilos profesional
-│   └── main.js            # Lógica de cliente y conexión con la API
-├── docker-compose.yml     # Configuración de orquestación de servicios
-├── .gitignore             # Exclusión de archivos sensibles y temporales
-└── validacion.http        # Suite de pruebas para testing de la API
+│   ├── index.html
+│   ├── style.css
+│   └── main.js
+├── docker-compose.yml
+├── .gitignore
+└── validacion.http
 
 ---
 
