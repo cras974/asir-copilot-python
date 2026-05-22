@@ -46,7 +46,7 @@ Una vez levantado, accede a la aplicación en: `http://localhost:8000`.
 
 ---
 
-## 👤 Autor
+## 👤 Alumno
 **Miguel Ángel García Cortés**
 *Estudiante de Administración de Sistemas Informáticos en Red.*
 
